@@ -8,6 +8,34 @@ This repo is built as a practical security lab where each vulnerability is:
 - Fixed using secure coding practices
 - Tested using Foundry
 
+## Repository Structure
+
+smart-contract-security-lab/
+├── README.md
+├── access-control/
+│   ├── README.md
+│   ├── src/
+│   │   ├── SecureAccess.sol
+│   │   └── VulnerableAccess.sol
+│   └── test/
+│       └── AccessControl.t.sol
+├── integer-underflow/
+│   ├── README.md
+│   ├── src/
+│   │   ├── UnderflowFixed.sol
+│   │   └── UnderflowVulnerable.sol
+│   └── test/
+│       └── Underflow.t.sol
+└── reentrancy/
+├── README.md
+├── src/
+│   ├── Attacker.sol
+│   ├── ReentrancyFixed.sol
+│   └── VulnerableBank.sol
+└── test/
+├── Reentrancy.t.sol
+└── ReentrancyFixed.t.sol
+
 ---
 
 ## Covered Vulnerabilities
@@ -89,7 +117,7 @@ The vulnerable contracts are intentionally insecure and must not be used in prod
 ## Author
 
 Ritik Verma  
-Blockchain Developer | Smart Contract Security | Web3
+Blockchain Engineer | Smart Contract Security | Web3
 
 Portfolio: https://ritikportfoliodev.netlify.app  
 GitHub: https://github.com/Ritik505
