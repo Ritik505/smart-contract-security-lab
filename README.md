@@ -10,6 +10,9 @@ This repo is built as a practical security lab where each vulnerability is:
 
 ## Repository Structure
 
+## Repository Structure
+
+```txt
 smart-contract-security-lab/
 ├── README.md
 ├── access-control/
@@ -27,14 +30,16 @@ smart-contract-security-lab/
 │   └── test/
 │       └── Underflow.t.sol
 └── reentrancy/
-├── README.md
-├── src/
-│   ├── Attacker.sol
-│   ├── ReentrancyFixed.sol
-│   └── VulnerableBank.sol
-└── test/
-├── Reentrancy.t.sol
-└── ReentrancyFixed.t.sol
+    ├── README.md
+    ├── src/
+    │   ├── Attacker.sol
+    │   ├── ReentrancyFixed.sol
+    │   └── VulnerableBank.sol
+    └── test/
+        ├── Reentrancy.t.sol
+        └── ReentrancyFixed.t.sol
+```
+
 
 ---
 
